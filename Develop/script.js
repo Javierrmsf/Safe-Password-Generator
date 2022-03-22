@@ -14,7 +14,7 @@ function writePassword() {
  var password = "" //restarts password to " " in order to add the new password to this blank space, i
                    //not doing this results in having a larger password everytime the generate password button is clicked
 
-  for (var i = 0; i <= passwordlength; i++){
+  for (var i = 1; i <= passwordlength; i++){ //fixed the for loop to have the exact number of characters stated by the user in the for loop
   var randomnumbergenerator = Math.floor(Math.random() * characters1.length);
   password += characters1.substring(randomnumbergenerator,randomnumbergenerator + 1); //password generator using lower case, capital letters and special characters.
 
