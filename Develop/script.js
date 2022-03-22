@@ -10,7 +10,7 @@ function writePassword() {
   
 
  var characters1 = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ@$%&/()=?¿[]+{}^";
- var passwordlength = 10;
+ var passwordlength = prompt("enter password length");//added prompt to ask for password length
  var password = "" //restarts password to " " in order to add the new password to this blank space, i
                    //not doing this results in having a larger password everytime the generate password button is clicked
 
