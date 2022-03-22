@@ -17,12 +17,34 @@ function writePassword() {
  var lowercasecharacters = "abcdefghijklmnopqrstuvwxyz";
  var numbercharacters = "0123456789";
 
- var capitalprompt = "PLEASE ENTER THE LETTER ONLY: a) do you want capital letters, b) lowercase letters, c) both, d) none"
- while(capitalprompt!=="a" || capitalprompt!=="b" || capitalprompt!=="c" || capitalprompt!== "d"){
-  var capitalprompt = "try again, PLEASE ENTER THE LETTER ONLY: a) do you want capital letters, b) lowercase letters, c) both, d) none"
+ var capitalprompt = prompt("PLEASE ENTER THE LETTER ONLY, What kind of letters do you want to use: a) capital letters, b) lowercase letters, c) both, d) none");
+ 
+  
+ var numbersprompt = prompt("PLEASE ENTER THE LETTER ONLY, Do you want your password to contain numbers? a) yes  b) no");
+  
+
+ var specialprompt = prompt("PLEASE ENTER THE LETTER ONLY, Do you want your password to contain special characters like these: @$%&/()=?¿[]+{}^#* ? a) yes  b) no");
+ 
+ var characters1 = "";
+
+  If (capitalprompt== "a"); {  characters1 = characters1 + capitalcharacters
+
+} Elseif(capitalprompt== "b"); {  characters1 = characters1 + lowercasecharacters;
+
+} Elseif(capitalprompt== "c" ); {  characters1 = characters1 + capitalcharacters + lowercasecharacters;
+
+} Elseif(numbersprompt == "a" ); {  characters1 = characters1 + numbercharacters 
+
+} Elseif(numbersprompt == "b"); { characters1 = characters1
+
+} ElseIf(specialprompt== "a" ); { characters1 = characters1 + specialcharacters
+
+}Else(specialprompt== "b" ); {var characters1 = characters1
+
  }
 
- 
+
+
 
 
  var password = "" //restarts password to " " in order to add the new password to this blank space, i
