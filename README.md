@@ -1,6 +1,6 @@
 SAFE PASSWORD GENERATOR 
 
-![image](./Resources/screenshot.JPG)
+![image](./assets/images/screenshot.JPG)
 
 
 This app is able to randomly generate a password from 8 to 128 characters long.
@@ -11,4 +11,4 @@ To start, just click on the red button that says "generate" and answer the promp
 
 Here's the github link to the deployed app: https://javierrmsf.github.io/Safe-Password-Generator/
 
-Here's the github link to the repo: https://github.com/Javierrmsf/Safe-Password-Generator
+Here's the github link to the repo: https://github.com/Javierrmsf/Safe-Password-Generatorgo
