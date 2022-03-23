@@ -11,4 +11,4 @@ To start, just click on the red button that says "generate" and answer the promp
 
 Here's the github link to the deployed app: https://javierrmsf.github.io/Safe-Password-Generator/
 
-Here's the github link to the repo: https://github.com/Javierrmsf/Safe-Password-Generatorgo
+Here's the github link to the repo: https://github.com/Javierrmsf/Safe-Password-Generator
