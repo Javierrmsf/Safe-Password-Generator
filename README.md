@@ -9,6 +9,6 @@ Additionally, it asks the user to decide whether lowercaseletters, capital lette
 
 To start, just click on the red button that says "generate" and answer the prompts.
 
-Here's the github link to the deployed app:
+Here's the github link to the deployed app: https://javierrmsf.github.io/Safe-Password-Generator/
 
-Here's the github link to the repo: 
+Here's the github link to the repo: https://github.com/Javierrmsf/Safe-Password-Generator
